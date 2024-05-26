@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Leaderboard</h1>
+
+    <div class="container">
+        <div>
+
+            <input class="input" type="text" id="firstName" placeholder="Enter first Name ">
+            <input class="input" type="text" id="lastName" placeholder="Enter last Name ">
+            <input class="input" type="number" id="score" placeholder="Enter Score ">
+            <input class="input" type="text" id="country" placeholder="Enter Country ">
+
+
+            <button class="btn" onclick="addPlayer()">Add Player</button>
+        </div>
+
+        <ul id="leaderboard" class="leaderboard">
+        </ul>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
